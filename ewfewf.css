@@ -1,0 +1,158 @@
+.scroll {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgba(160, 160, 160, 0.3);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 10000;
+}
+.fixed {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+body {
+    font-family: 'GmarketSansBold';
+    -ms-overflow-style: none;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*특정 부분 스크롤바 없애기*/
+.box {
+    -ms-overflow-style: none;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+#section1 {
+    width: 100%;
+    height: 317.7083vw;
+    background: #000;
+}
+
+// section1
+
+.mainPages {
+    width: 100%;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+}
+
+#section1 .mainPages span {
+    position: fixed;
+    font-size: 2.0365vw;
+    color: #fff;
+    top: 2.8646vw;
+    left: 5.2083vw;
+}
+
+#section1 .mainPages h2 {
+    font-family: 'GmarketSansLight';
+    position: fixed;
+    font-size: 20.3125vw;
+    color: #fff;
+    top: 1.8229vw;
+    left: 20.1563vw;
+}
+
+#section1 .mainPages h1 {
+    position: fixed;
+    font-size: 22.3958vw;
+    color: #fff;
+    top: 23.2292vw;
+    left: 54.9740vw;
+}
+
+#section1 .mainPages h3 {
+    position: fixed;
+    font-size: 23.9583vw;
+    color: #fff;
+    top: 23.0729vw;
+    left: 245.0729vw;
+}
+
+#section1 .mainPages .mainPagesG1 h4 {
+    position: fixed;
+    font-size: 1.4688vw;
+    top: 4.7396vw;
+    left: 278.4375vw;
+    color: #fff;
+    width: 35.5208vw;
+}
+
+#section1 .mainPages .mainPagesG1 p {
+    font-family: 'GmarketSansLight';
+    position: fixed;
+    font-size: 1.3125vw;
+    width: 26.0417vw;
+    top: 10.8333vw;
+    left: 278.4375vw;
+    color: #fff;
+    width: 35.5208vw;
+}
+
+#section1 .mainPages .mainPagesG2 h4 {
+    position: fixed;
+    font-size: 1.4688vw;
+    top: 4.7396vw;
+    left: 322.7083vw;
+    color: #fff;
+    width: 35.8854vw;
+}
+
+#section1 .mainPages .mainPagesG2 p {
+    font-family: 'GmarketSansLight';
+    position: fixed;
+    font-size: 1.4688vw;
+    top: 10.8333vw;
+    left: 322.7083vw;
+    color: #fff;
+    width: 35.8854vw;
+}
+
+// #section1, img
+#section1 .mainPages .img1 {
+    position: fixed;
+    width: 20.5938vw;
+    height: 20.5938vw;
+    top: 26.4271vw;
+    left: 22.2604vw;
+}
+
+#section1 .mainPages .img2 {
+    position: fixed;
+    width: 29.3490vw;
+    height: 34.9792vw;
+    top: 3.5938vw;
+    left: 99.2344vw;
+}
+
+#section1 .mainPages .img3 {
+    position: fixed;
+    width: 30.0729vw;
+    height: 30.0729vw;
+    top: 8.5vw;
+    left: 157.4375vw;
+}
+
+#section1 .mainPages .img4 {
+    position: fixed;
+    width: 31.1458vw;
+    height: 40.9896vw;
+    left: 229.5833vw;
+    top: 5.2083vw;
+}
+
