@@ -61,4 +61,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'KulimPark-SemiBold';
+    src: url('../css/fonts/KulimPark-SemiBold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 

@@ -269,18 +269,80 @@ body {
   width: 100vw;
   height: 122vw;
   left: -50%;
-  top: -10%;
   z-index: 1;
 }
 
 #section3 .page1 h1 {
+  position: fixed;
   font-size: 7vw;
   font-family: 'GmarketSansMedium';
   color: #fff;
+  width: 647px;
+  top: 127vw;
+  left: -18.6%;
 }
 
-#section3 .page1 h3 {
+#section3 .page1 h4 {
+  position: fixed;
   font-size: 5vw;
   font-family: 'GmarketSansLight';
   color: #fff;
+  top: 135vw;
+  left: -18.3%;
+  width: 57vw;
+}
+
+#section3 .page1 .page1G h1 {
+  position: fixed;
+  font-family: 'KulimPark-SemiBold';
+  color: #0B0B0B;
+  font-size: 23vw;
+  top: 28vw;
+}
+
+#section3 .page1 .page1G h1 em {
+  position: fixed;
+  color: #1C1C1C;
+  font-size: 23vw;
+}
+
+#section3 .page1 hr {
+  border: solid 2px #fff;
+}
+
+#section3 .page1 .page1G h3 {
+  position: fixed;
+  font-size: 2.7vw;
+  color: #fff;
+  font-family: 'GmarketSansBold';
+  top: 153vw;
+  left: -18.3%;
+}
+
+#section3 .page1 .page1G h2 {
+  position: fixed;
+  font-size: 2.5vw;
+  font-family: 'GmarketSansLight';
+  color: #fff;
+  top: 156vw;
+  left: -18.3%;
+}
+
+#section3 .page1 .page1G p {
+  position: fixed;
+  font-size: 1.2vw;
+  font-family: 'GmarketSansMedium';
+  color: #fff;
+  width: 34.9vw;
+  top: 153vw;
+  left: 25vw;
+  line-height: 1.6;
+}
+
+#section3 .page1 .page1G .page1GImg1 {
+  position: fixed;
+  width: 35vw;
+  height: 29vw;
+  top: 163vw;
+  left: 50%;
 }
